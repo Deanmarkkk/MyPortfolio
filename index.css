@@ -66,6 +66,7 @@ ul, li, a {
     border: 2px solid black;
     padding: 20px;
     margin: 30px;
+    margin-bottom: 10%;
 }
 .educ-header {
     text-align: center;
@@ -82,4 +83,44 @@ ul, li, a {
 .educ-txt {
     font-family: "Audiowide";
     font-size: 15px;
+}
+/*SKILL STYLES*/
+.skill {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 30px;
+}
+.skill-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0px 0px 30px 0px;
+    padding: 0%;
+}
+.skill-img {
+    width: 130px;
+}
+.skill-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-border {
+     border: 2px solid rgb(255, 255, 255);
+}
+.skill-info {
+    border: 1px solid black;
+    margin: 2px;
+}
+.skill-txt {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    padding: 1px;
+}
+.skill-lights {
+    color: rgb(255, 140, 0);
+    font-size: 15px;
+    font-weight: 600;
 }
