@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
     background-color: white;
     font-family: serif;
@@ -13,7 +15,7 @@ header {
     width: 35px;
     display: flex;
     justify-content: left;
-    margin-right: 72vw;
+    padding-right: 72vw;
 }
 ul {
     display: flex;
@@ -57,5 +59,27 @@ ul, li, a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10% 25%;
+    margin: 15% 25%;
+}
+/*EDUCATION STYLING*/
+.education {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 30px;
+}
+.educ-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0px 0px 30px 0px;
+    padding: 0%;
+}
+.educ-lights {
+    color: rgb(255, 132, 0);
+    font-weight: 600;
+    font-size: 20px;
+}
+.educ-txt {
+    font-family: "Audiowide";
+    font-size: 15px;
 }
