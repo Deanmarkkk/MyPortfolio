@@ -99,25 +99,27 @@ ul, li, a {
 }
 .skill-img {
     width: 130px;
+    margin-left: 80px;
 }
 .skill-main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 .skill-border {
-     border: 2px solid rgb(255, 255, 255);
+     border: 2px solid rgb(0, 0, 0);
+     margin: 0%;
+     padding: 5px;
 }
 .skill-info {
     border: 1px solid black;
-    margin: 2px;
 }
 .skill-txt {
     text-align: center;
-    font-family: 'Poppins';
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 500;
-    padding: 1px;
+    margin: 0%;
+    padding: 10px;
 }
 .skill-lights {
     color: rgb(255, 140, 0);
