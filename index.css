@@ -9,14 +9,14 @@ body::-webkit-scrollbar { /*HIDE MY SCROLL BAR*/
     display: none;
 }
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 236, 236);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
 .cat {
-    width: 40px;
+    width: 30px;
 }
 ul {
     display: flex;
@@ -58,12 +58,14 @@ ul, li, a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15% 25%;
+    margin: 10% 20%;
+    gap: 100px;
 }
 /*EDUCATION STYLING*/
 .education {
     padding: 15px;
     margin: 30px;
+    margin-top: 20%;
     margin-bottom: 10%;
 }
 .educ-header {
@@ -84,8 +86,8 @@ ul, li, a {
 }
 /*SKILL STYLES*/
 .skill {
-    padding: 20px;
-    margin: 30px;
+    padding: 10px;
+    margin: 10px;
 }
 .skill-header {
     text-align: center;
@@ -95,13 +97,12 @@ ul, li, a {
     padding: 0%;
 }
 .skill-img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 100%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
-    transform: scale(0.9);
 }
 .skill-main {
     display: flex;
@@ -109,20 +110,7 @@ ul, li, a {
     justify-content: center;
 }
 .skill-border {
-     margin: 4px;
-     padding: 1px;
-     width: 300px;
-     height: 220px;
-}
-.skill-txt {
-    text-align: center;
-    font-size: 10px;
-    font-weight: 530;
-    margin: 0%;
-    padding: 5px;
-}
-.skill-lights {
-    color: rgb(255, 140, 0);
-    font-size: 15px;
-    font-weight: 600;
+    border: 2px solid black;
+    margin: 5px;
+    height: 150px;
 }
