@@ -19,3 +19,10 @@ function projectButton() {
         alert('Ongoing palang')
     }
 }
+
+const btnSubmit = document.querySelector('.btnSubmit');
+function submitBtn() {
+    if (btnSubmit) {
+        alert('Joke lang, di ko pa alam dito banda.')
+    }
+}
