@@ -19,5 +19,3 @@ function projectButton() {
         alert('Ongoing palang')
     }
 }
-//AOS ANIMATION INITIALIZER
-AOS.init();
