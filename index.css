@@ -34,8 +34,8 @@ ul, li, a {
     color: black;
 }
 a:hover {
-    transition: .3s ease-in-out;
-    color: rgba(0, 0, 0, 0.5);
+    transition: .1s ease-in-out;
+    color: rgb(255, 162, 0);
 }
 .home-img {
     width: 20px;
@@ -87,10 +87,27 @@ a:hover {
     color: rgb(255, 132, 0);
     font-weight: 600;
     font-size: 20px;
+    text-transform: uppercase;
 }
 .educ-txt {
+    cursor: pointer;
     font-family: "Audiowide";
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    transform: scale(0.9);
+    transition: .2s ease-out;
+}
+.educ-txt:hover {
+    color: rgba(0, 0, 0, 1);
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+ .educ-lights:hover {
+    color: red;
+ }
+.educ-main {
+    margin-top: 40px;
 }
 /*SKILL STYLES*/
 .skill {
@@ -128,9 +145,9 @@ a:hover {
   bottom: 20px;
   right: 20px;
   padding: 10px 15px;
-  font-size: 16px;
-  background-color: #333;
-  color: #fff;
+  font-size: 13px;
+  background-color: #c3c3c3;
+  color: #000000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
