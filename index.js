@@ -1,3 +1,4 @@
+AOS.init();
 const btn = document.getElementById("backToTop");
 
 window.onscroll = function () {
