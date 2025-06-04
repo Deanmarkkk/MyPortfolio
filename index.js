@@ -11,3 +11,11 @@ if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
 btn.onclick = function () {
 window.scrollTo({ top: 0, behavior: "smooth" });
 };
+
+const projectBtn = document.querySelector('.proj');
+
+function projectButton() {
+    if (projectBtn) {
+        alert('Ongoing palang')
+    }
+}

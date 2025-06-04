@@ -149,7 +149,7 @@ a:hover {
   background-color: #c3c3c3;
   color: #000000;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   display: none;
   z-index: 1000;
