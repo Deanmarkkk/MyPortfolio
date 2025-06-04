@@ -232,7 +232,7 @@ button:hover {
     }
     .home-txt1 {
         font-family: 'poppins';
-        font-size: 12px;
+        font-size: 15px;
     }
     .home-txt2 {
         display: none;
@@ -249,10 +249,12 @@ button:hover {
         display: none;
     }
     .mypic2 {
+        
         display: block;
         width: 60px;
     }
     .me {
+        margin-top: 10px;
         border-radius: 100%;
         overflow: hidden;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
