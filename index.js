@@ -1,4 +1,3 @@
-AOS.init();
 const btn = document.getElementById("backToTop");
 
 window.onscroll = function () {
@@ -20,3 +19,5 @@ function projectButton() {
         alert('Ongoing palang')
     }
 }
+//AOS ANIMATION INITIALIZER
+AOS.init();
