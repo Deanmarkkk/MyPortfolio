@@ -123,12 +123,19 @@ a:hover {
 }
 .skill-img {
     cursor: pointer;
+    opacity: 80%;
     width: 150px;
     height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 100%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    transition: .2s ease-out;
+}
+.skill-img:hover {
+    transition: .2s ease-in-out;
+    opacity: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
 .skill-main {
     display: flex;
@@ -153,4 +160,14 @@ a:hover {
   cursor: pointer;
   display: none;
   z-index: 1000;
+}
+.skill-txt-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'poppins';
+    color: rgb(158, 87, 0);
+    font-weight: 700;
+    cursor: pointer;
 }
