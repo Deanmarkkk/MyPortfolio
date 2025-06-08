@@ -180,7 +180,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
+    font-size: 10px;
     font-family: 'poppins';
     color: rgb(158, 87, 0);
     font-weight: 700;
@@ -189,7 +189,8 @@ a:hover {
 /* Hidden popup by default */
 .skill-txt-border {
     display: none;
-    position: absolute;
+    position: fixed;
+    width: 250px;
     top: 220px;
     left: 20px;
     padding: 10px;
