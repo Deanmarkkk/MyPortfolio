@@ -26,3 +26,10 @@ function submitBtn() {
         alert('Joke lang, di ko pa alam dito banda.')
     }
 }
+
+const skillImage = document.querySelector('.skill-img');
+const popUp = document.querySelector('.skill-txt-border');
+
+skillImage.addEventListener('click', () => {
+popUp.style.display = popUp.style.display === 'block' ? 'none' : 'block'
+})
