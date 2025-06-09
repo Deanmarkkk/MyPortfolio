@@ -151,7 +151,6 @@ a:hover {
 }
 .skill-border {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    height: fit-content;
     border-radius: 15px;
     margin: 15px;
     padding: 10px;
