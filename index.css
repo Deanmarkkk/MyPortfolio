@@ -186,19 +186,6 @@ a:hover {
     font-weight: 700;
     cursor: pointer;
 }
-/* Hidden popup by default */
-.skill-txt-border {
-    display: none;
-    position: fixed;
-    width: 250px;
-    top: 220px;
-    left: 20px;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-/* <- POP UP IMAGES FOR SKILL PAGE*/
 /*FOOTER*/
 footer {
     background-color: #dadada;
